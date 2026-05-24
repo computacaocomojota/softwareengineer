@@ -1,0 +1,24 @@
+{
+  "name": "softwareengineer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "test": "jest",
+    "build:docs": "typedoc --entryPointStrategy expand ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.22.0",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.9.1",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.11",
+    "typedoc": "^0.28.19",
+    "typescript": "^6.0.3"
+  }
+}
